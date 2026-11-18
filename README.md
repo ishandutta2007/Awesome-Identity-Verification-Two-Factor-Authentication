@@ -184,7 +184,7 @@ Contributions are warmly welcome! Follow these steps to submit additions or impr
 
 1. Fork the repository.
 2. Add your entry in alphabetical order or sorted by relevant metrics in `README.md`.
-3. Include: Product name, official link, precise starting pricing, free tier/trial boundaries, and relevant company size metrics. For open-source repos, include the social GitHub Stars_Badge.
+3. Include: Product name, official link, precise starting pricing, free tier/trial boundaries, and relevant company size metrics. For open-source repos, include the social GitHub_Stars_Badge.
 4. Ensure descriptions are factual, objective, and neutral.
 5. Submit a Pull Request with a clear summary of your changes.
 
