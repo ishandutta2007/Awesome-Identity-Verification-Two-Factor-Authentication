@@ -243,3 +243,12 @@ Star the repo if you find it useful!
 **Made for security teams, identity architects, developers, and open-source advocates.**
 
 Let's keep identity verification and authentication strong, private, and as open as practical.
+
+## ⭐ Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Identity-Verification-Two-Factor-Authentication&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Identity-Verification-Two-Factor-Authentication_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Identity-Verification-Two-Factor-Authentication_growth.svg">
+  </picture>
+</a>
