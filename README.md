@@ -1,30 +1,38 @@
-# Awesome Identity Verification & Two-Factor Authentication [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Identity Verification &amp; Two-Factor Authentication Banner" width="100%" />
+</p>
 
-> A curated list of leading SaaS platforms and open-source GitHub projects for Identity Verification (IDV), Know Your Customer (KYC), Multi-Factor Authentication (MFA), Two-Factor Authentication (2FA), Passkeys, WebAuthn, and Authenticator Apps.
+# 🔐 Awesome Identity Verification & Two-Factor Authentication
 
-[![GitHub stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Identity-Verification-Two-Factor-Authentication?style=social)](https://github.com/ishandutta2007/Awesome-Identity-Verification-Two-Factor-Authentication/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/ishandutta2007/Awesome-Identity-Verification-Two-Factor-Authentication?style=social)](https://github.com/ishandutta2007/Awesome-Identity-Verification-Two-Factor-Authentication/network/members)
-[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-Identity-Verification-Two-Factor-Authentication#how-to-contribute)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Identity-Verification-Two-Factor-Authentication/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Identity-Verification-Two-Factor-Authentication?style=social" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Identity-Verification-Two-Factor-Authentication/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Identity-Verification-Two-Factor-Authentication?style=social" alt="GitHub forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Identity-Verification-Two-Factor-Authentication#how-to-contribute"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square" alt="Contributions Welcome" /></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License: MIT" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-This repository tracks notable **SaaS platforms** and **open-source software** across the digital identity lifecycle — ranging from biometric identity proofing, document checks, and automated AML/KYC compliance to phishing-resistant MFA, FIDO2/WebAuthn passkeys, hardware security tokens, and self-hosted Identity Providers (IdPs).
-
----
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS & Hosted Platforms](#saashosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-  - [Open-Source Solutions by Star Count](#open-source-solutions-ranked-by-github-stars)
-  - [Architecture & Implementation Guide](#architecture--implementation-guide)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-- [Star History](#-star-history)
+> 🛡️ A meticulously curated directory of top-tier SaaS platforms and open-source GitHub projects for Identity Verification (IDV), Know Your Customer (KYC), Multi-Factor Authentication (MFA), Two-Factor Authentication (2FA), Passkeys (FIDO2/WebAuthn), and Authenticator Apps.
 
 ---
 
-## Sector Overview & Market Dynamics
+## 📑 Table of Contents
+
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS & Hosted Platforms](#-saashosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+  - [⭐ Open-Source Solutions by Star Count](#-open-source-solutions-ranked-by-github-stars)
+  - [🏗️ Architecture & Implementation Guide](#-architecture--implementation-guide)
+- [🤝 Support](#-support)
+- [🚀 How to Contribute](#-how-to-contribute)
+- [⚠️ Disclaimer](#-disclaimer)
+- [⭐ Star History](#-star-history)
+
+---
+
+## 📊 Sector Overview & Market Dynamics
 
 The global Identity Verification (IDV) market is projected at **$15.5B – $16.5B in 2026** (scaling from ~$13.5B in 2025 at ~14% CAGR), while the broader Multi-Factor Authentication (MFA) and Identity & Access Management (IAM) software market surpasses **$20B+** (growing at ~17% CAGR). 
 
@@ -35,7 +43,7 @@ The sector exhibits **moderate fragmentation** across distinct sub-verticals rat
 
 ---
 
-## SaaS/Hosted Platforms
+## 🏢 SaaS/Hosted Platforms
 
 The table below summarizes leading commercial SaaS and hosted identity verification and multi-factor authentication platforms. It includes starting pricing tiers, specific free tier or trial constraints, and estimated enterprise scale (market cap, valuation, or annual revenue), sorted in descending order of company size.
 
@@ -54,11 +62,11 @@ The table below summarizes leading commercial SaaS and hosted identity verificat
 
 ---
 
-## Open-Source GitHub Projects
+## 💻 Open-Source GitHub Projects
 
 Open-source identity, multi-factor authentication, and passkey frameworks empower engineering teams to maintain full sovereignty over credentials, encryption keys, and self-hosted infrastructure.
 
-### Open-Source Solutions Ranked by GitHub Stars
+### ⭐ Open-Source Solutions Ranked by GitHub Stars
 
 The following projects are actively maintained and sorted in descending order by GitHub stargazer count. Each repository link features a live star count badge linking directly to the project's stargazers.
 
@@ -148,19 +156,31 @@ The following projects are actively maintained and sorted in descending order by
 
 ---
 
-### Architecture & Implementation Guide
+### 🏗️ Architecture & Implementation Guide
 
 When assembling an authentication and verification architecture:
-- **Full Identity Provider (IdP) & SSO**: Deploy **[Keycloak](https://github.com/keycloak/keycloak)**, **[Authelia](https://github.com/authelia/authelia)**, or **[Authentik](https://github.com/goauthentik/authentik)** to manage identity tokens, sessions, and MFA policies.
-- **Passkey & WebAuthn Integration**: Leverage **[SimpleWebAuthn](https://github.com/MasterKale/SimpleWebAuthn)** (Node.js/TS), **[py_webauthn](https://github.com/duo-labs/py_webauthn)** (Python), or **[fido2-net-lib](https://github.com/passwordless-lib/fido2-net-lib)** (.NET) to embed biometric and security key sign-ins into existing application codebases.
-- **Client Authenticator Tools**: Use offline open-source authenticators such as **[Aegis](https://github.com/beemdevelopment/Aegis)** or **[FreeOTP](https://github.com/freeotp/freeotp-android)** for air-gapped, privacy-first OTP generation.
-- **Regulated Identity Verification (KYC/AML)**: While authentication mechanisms are abundantly available in open-source libraries, global identity proofing (verifying real-world government passports, driver licenses, AML sanctions screening, and biometric 3D liveness) generally requires commercial SaaS providers (**Persona**, **Trulioo**, **Onfido**) due to proprietary government registry connections and compliance liability.
+- 🌐 **Full Identity Provider (IdP) & SSO**: Deploy **[Keycloak](https://github.com/keycloak/keycloak)**, **[Authelia](https://github.com/authelia/authelia)**, or **[Authentik](https://github.com/goauthentik/authentik)** to manage identity tokens, sessions, and MFA policies.
+- 🔑 **Passkey & WebAuthn Integration**: Leverage **[SimpleWebAuthn](https://github.com/MasterKale/SimpleWebAuthn)** (Node.js/TS), **[py_webauthn](https://github.com/duo-labs/py_webauthn)** (Python), or **[fido2-net-lib](https://github.com/passwordless-lib/fido2-net-lib)** (.NET) to embed biometric and security key sign-ins into existing application codebases.
+- 📱 **Client Authenticator Tools**: Use offline open-source authenticators such as **[Aegis](https://github.com/beemdevelopment/Aegis)** or **[FreeOTP](https://github.com/freeotp/freeotp-android)** for air-gapped, privacy-first OTP generation.
+- 🪪 **Regulated Identity Verification (KYC/AML)**: While authentication mechanisms are abundantly available in open-source libraries, global identity proofing (verifying real-world government passports, driver licenses, AML sanctions screening, and biometric 3D liveness) generally requires commercial SaaS providers (**Persona**, **Trulioo**, **Onfido**) due to proprietary government registry connections and compliance liability.
 
 ---
 
-## How to Contribute
+## 🤝 Support
 
-Contributions are welcome! Follow these steps to submit additions or improvements:
+Thank you for visiting and supporting this curated resource! 💖
+
+If you found this ecosystem guide helpful:
+- ⭐ **Star this repository** to help others discover it.
+- 🍴 **Fork and contribute** your favorite tools and libraries.
+- 📢 **Share it** with peers, security engineers, and DevOps teams.
+- ☕ If you'd like to support the ongoing research and maintenance, consider buying a coffee via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 🚀 How to Contribute
+
+Contributions are warmly welcome! Follow these steps to submit additions or improvements:
 
 1. Fork the repository.
 2. Add your entry in alphabetical order or sorted by relevant metrics in `README.md`.
@@ -170,7 +190,7 @@ Contributions are welcome! Follow these steps to submit additions or improvement
 
 ---
 
-## Disclaimer
+## ⚠️ Disclaimer
 
 This repository is community-curated for informational and architectural guidance. Identity verification, cryptographic token storage, and authentication protocols manage high-risk data and critical access control boundaries. Always perform independent compliance reviews (GDPR, HIPAA, KYC/AML, SOC 2, ISO 27001) and security audits prior to deploying authentication or verification stacks in production environments.
 
@@ -178,9 +198,4 @@ This repository is community-curated for informational and architectural guidanc
 
 ## ⭐ Star History
 
-<a href="https://star-history.com/#ishandutta2007/Awesome-Identity-Verification-Two-Factor-Authentication&Timeline" align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Identity-Verification-Two-Factor-Authentication_growth.svg">
-    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Identity-Verification-Two-Factor-Authentication_growth.svg">
-  </picture>
-</a>
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Identity-Verification-Two-Factor-Authentication&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Identity-Verification-Two-Factor-Authentication&type=date&legend=top-left)
